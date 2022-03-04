@@ -1,9 +1,9 @@
 
 import re
 
-def is_phrase_isogram(phrase):
+def is_phrase_isogram(phrases):
     
-    s = re.findall('[a-zA-Z0-9]',phrase)
+    s = re.findall('[a-zA-Z0-9]',phrases)
     res = []
     for element in s:
         if element not in res:
